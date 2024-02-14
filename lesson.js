@@ -63,3 +63,30 @@ const foo = function() {
 }
 
 foo(1, 2, 3, 4, 5); //передадим аргументы, и будет данный псевдомассив
+
+
+//______________________________
+//пример из интернета
+
+
+let arr1 = ['a', 'b', 'e', 'f'];
+let arr2 = ['a', 'b', 'c', 'd'];
+
+let intersection = arr1.filter((item) =>
+!arr2.includes(item))
+
+console.log(intersection)
+
+//____________________________________
+
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+const evenOnly = nums.filter((n) => {
+const remainder = n % 2
+console.log(remainder);
+return remainder === 0
+
+})
+
+console.log(evenOnly);

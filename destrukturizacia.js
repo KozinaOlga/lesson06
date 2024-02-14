@@ -23,7 +23,7 @@ console.log('coord[1]:', y); //3
 
 console.log('arr:', arr);
 
-const newArray = numbers.slice(6);
+const newArray = numberss.slice(6);
 console.log('newArray: ', newArray); //(5) [16, 15, 3, 2, 1]
 
 const str = 'Hello world!';
